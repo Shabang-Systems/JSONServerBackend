@@ -1,0 +1,31 @@
+{
+    "name": "@condution/JSONServerBackend",
+    "main": "JSONServerBackend.ts",
+    "license": "GPL-3.0-or-later",
+    "dependencies": {
+        "@babel/runtime": "^7.13.9",
+        "@condution/engine": "^1.0.0-prealpha.6"
+    },
+    "repository": "https://github.com/Shabang-Systems/CondutionEngine",
+    "homepage": "https://www.condution.com",
+    "author": "Shabang Systems, and the Condution Authors",
+    "scripts": {
+        "start": "nodemon  --ignore playground --exec babel-node  --extensions \".ts\" --extensions \".js\" tests/scratchpad.ts",
+        "tscomp": "tsc"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.0.0-rc.1",
+        "@babel/core": "^7.0.0-rc.1",
+        "@babel/node": "^7.0.0-rc.1",
+        "@babel/plugin-proposal-class-properties": "^7.12.1",
+        "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+        "@babel/plugin-transform-runtime": "^7.13.9",
+        "@babel/preset-env": "^7.13.12",
+        "@babel/preset-es2015": "^7.0.0-beta.53",
+        "@babel/preset-typescript": "^7.12.7",
+        "babel-preset-minify": "^0.5.1",
+        "dotenv": "^8.2.0",
+        "nodemon": "^1.18.3",
+        "typescript": "^4.1.3"
+    }
+}
