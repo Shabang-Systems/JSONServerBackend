@@ -1,6 +1,6 @@
 {
     "name": "@condution/JSONServerBackend",
-    "main": "JSONServerBackend.ts",
+    "main": "JSONServerProvider",
     "license": "GPL-3.0-or-later",
     "dependencies": {
         "@babel/runtime": "^7.13.9",

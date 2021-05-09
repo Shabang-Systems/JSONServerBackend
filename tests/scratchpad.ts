@@ -1,4 +1,4 @@
-import "../JSONServerBackend";
+import "../JSONServerProvider";
 
 console.log("hewo");
 
